@@ -25,4 +25,7 @@ This is a pre commit script that check committer.
 
 ## License
 
-MIT
+Copyright (c) 2013, Daiki Maekawa. (MIT License)
+
+See LICENSE for more info.
+
