@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+
+import os
+import commands
+import sys
+
+def hook_func():
+    sys.stdin = open("/dev/tty")
+    name = commands.getoutput("git config user.name")
+    address = commands.getoutput("git config user.email")
+    identity = ""
+    while not identity in ("Y", "y", "N", "n"):
+        print "Author = %s <%s>" % (name, address)
+        identity = raw_input("Do you want to me to keep it this way? [Y/n] ")
+    
+    if identity in ("N", "n"):
+        new_name = raw_input("Username:")
+        new_address = raw_input("Email:")
+        os.system("git config user.name \"%s\"" % new_name)
+        os.system("git config user.email \"%s\"" % new_address)
+        print "git-config update successfully"
+        print "Please commit that again..."
+        return 1
+
+    return 0
+
+sys.exit(hook_func())
+ 
