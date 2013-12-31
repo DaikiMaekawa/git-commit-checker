@@ -1,4 +1,4 @@
-git-organization-manager
+git-hooks
 ========================
 
 pre-commit.py
