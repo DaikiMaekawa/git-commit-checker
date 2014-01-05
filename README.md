@@ -14,7 +14,7 @@ This is a pre commit script that check committer.
     $ git commit -m "msg"
     
     Author = USER_NAME <USER_EMAIL>
-    Do you want to me to keep it this way? [Y/n] n
+    Do you want to me to keep it this way? [y/n] n
     Username:NEW_USER_NAME
     Email:NEW_USER_EMAIL
     Please commit that again...
