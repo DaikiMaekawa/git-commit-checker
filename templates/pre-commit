@@ -9,11 +9,11 @@ def hook_func():
     name = commands.getoutput("git config user.name")
     address = commands.getoutput("git config user.email")
     identity = ""
-    while not identity in ("Y", "y", "N", "n"):
+    while not identity in ("y", "n"):
         print "Author = %s <%s>" % (name, address)
-        identity = raw_input("Do you want to me to keep it this way? [Y/n] ")
-    
-    if identity in ("N", "n"):
+        identity = raw_input("Do you want to me to keep it this way? [y/n] ")
+
+    if identity == "n":
         new_name = raw_input("Username:")
         new_address = raw_input("Email:")
         os.system("git config user.name \"%s\"" % new_name)
