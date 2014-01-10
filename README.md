@@ -1,6 +1,3 @@
-git-hooks
-========================
-
 ## About
 
 This is a pre commit script that check committer.
