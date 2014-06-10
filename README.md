@@ -14,6 +14,9 @@ $ sudo ./install.sh
 $ git commit -m "msg"
 
 Author = USER_NAME <USER_EMAIL>
+```
+
+```bash
 Do you want to me to keep it this way? [y/n] n
 Username:NEW_USER_NAME
 Email:NEW_USER_EMAIL
