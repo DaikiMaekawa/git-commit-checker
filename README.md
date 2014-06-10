@@ -5,7 +5,7 @@ This is a pre commit script that check committer.
 ## Installation
 
 ```bash
-sudo ./install.sh
+$ sudo ./install.sh
 ```
 
 ## Usage
