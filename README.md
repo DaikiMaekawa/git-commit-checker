@@ -31,7 +31,7 @@ Author = NEW_USER_EMAIL <NEW_USER_EMAIL>
 
 ## License
 
-Copyright (c) 2013, Daiki Maekawa. (MIT License)
+Copyright (c) 2013, [Daiki Maekawa](http://daikimaekawa.strikingly.com/). (MIT License)
 
 See LICENSE for more info.
 
