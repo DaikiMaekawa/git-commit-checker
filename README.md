@@ -2,6 +2,8 @@
 
 This is a pre commit script that check committer.
 
+http://qiita.com/DaikiMaekawa
+
 ## Installation
 
 ```sh
