@@ -1,6 +1,6 @@
 ## About
 
-This is a pre commit script that check committer.
+This is a pre commit script that commit checker.
 
 http://qiita.com/DaikiMaekawa
 
