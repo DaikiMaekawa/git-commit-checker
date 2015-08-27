@@ -2,7 +2,7 @@
 
 This is a pre commit script that check commits.
 
-http://qiita.com/DaikiMaekawa
+You can find more information about how to use this [here](http://qiita.com/DaikiMaekawa). (in Japanese)
 
 ## Installation
 
