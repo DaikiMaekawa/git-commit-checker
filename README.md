@@ -31,6 +31,8 @@ $ git commit -m "msg"
 Author = NEW_USER_EMAIL <NEW_USER_EMAIL>
 ```
 
+Note that this function applies to newly created repositories after installing the scripts.
+
 ## License
 
 Copyright (c) 2013, [Daiki Maekawa](http://daikimaekawa.strikingly.com/). (MIT License)
