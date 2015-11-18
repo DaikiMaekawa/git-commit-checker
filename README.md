@@ -35,7 +35,7 @@ Note that this function applies to newly created repositories after installing t
 
 ## License
 
-Copyright (c) 2013, [Daiki Maekawa](http://daikimaekawa.strikingly.com/). (MIT License)
+Copyright (c) 2013 - 2014, [Daiki Maekawa](http://daikimaekawa.strikingly.com/). (MIT License)
 
 See LICENSE for more info.
 
