@@ -26,7 +26,7 @@ Please commit that again...
 ```
 
 ```bash
-$ git commit -m "msg"
+$ git commit -m "something"
 
 Author = NEW_USER_EMAIL <NEW_USER_EMAIL>
 ```
